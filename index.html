@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Linka FontAwesome -->
+   <script src="https://kit.fontawesome.com/d87aa93733.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <script type="text/javascript" src= "js/javascript.js"></script>
+
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+   
+    <center>
+      <label>Digite a quantidade de carteiras que terá sua classe:</label><br>
+      <input type="text" id="texto" name="quantidade" placeholder="(MAX: 16 carteiras)"> <br>
+      <p class="btn btn-primary" id="enviar" onclick="CriarClasse()">Criar Classe</p>
+      <p class="btn btn-danger" onclick="ApagarClasse()"> Apagar Classe </p>
+    </center>
+
+
+    <center>
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div id="menu" class="col-md"> 
+            <form>
+              <i class="fa-solid fa-user nomeUsuario"></i>
+              <input type="text" name="nome" placeholder="Nome Aluno"> <br>
+              <i class="fa-solid fa-award anoA"></i>
+              <input type="text" name="idade" placeholder="Ano Escolar"> <br>
+              <i class="fa-solid fa-book-open cursoA"></i>
+              <input type="text" name="idade" placeholder="Curso Aluno"> <br>
+              <i class="fa-solid fa-users  iGrupo"></i>
+              <input type="text" name="idade" class="mb-5"  placeholder="Turma"> <br>
+            </form>
+            <p class="btn btn-warning btn-lg mt-3" style="margin-right: 15px;" onclick="EsconderClasse()">Salvar</p> 
+            <p class="btn btn-danger btn-lg mt-3" onclick="EsconderClasse()">Fechar</p>
+          </div>
+        </div>          
+      </div>
+    </center>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+
+header#base { 
+	width: 1190px;
+	height: 950px;
+	background-color:  #A669F5;
+	border-radius: 45px;
+	z-index: 1;
+}
+
+
+.FClass{
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	width: 150px;
+	height: 150px;
+	background-color: #4F3275;
+	border-radius: 35px;
+	transition: background 0.32s;
+	z-index: 2;
+}
+
+.mProfessor{
+
+	position: relative;
+	bottom: -40px;
+	width: 540px;
+	height: 50px;
+	background-color: red;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: #493463 ;
+	transition: background-color 0.8s;
+}
+
+.mProfessor:hover{
+	background-color: #F7C90C; 
+}
+
+i{
+	margin-top: 45px;
+	color: white;
+	align-self: center;
+}
+
+
+.anoA{
+	color: #7E0DFA;
+	position: absolute;
+	right: 505px;
+	bottom: 400px;
+}
+
+.cursoA{
+	color: #7E0DFA;
+	position: absolute;
+	right: 505px;
+	bottom: 295px;
+}
+
+.iGrupo{
+color: #7E0DFA;
+position: absolute;
+right: 505px;
+bottom: 186px;
+}
+
+.FClass1e2:hover{
+	background-color: #F59B14;
+	cursor: pointer;
+}
+
+.FClass:hover{
+	background-color: #F59B14;
+	cursor: pointer;
+}
+
+.FClassTeste:hover{
+	background-color: #F59B14;
+	cursor: pointer;
+}
+
+
+.icone2{
+	margin-top: 55px;
+	z-index: 3;
+}
+
+.icone3{
+	margin-top: 110px;
+	z-index: 13;
+}
+
+.FClassTeste{
+	margin-top: 1005px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	width: 190px;
+	height: 190px;
+	background-color: #4F3275;
+	border-radius: 35px;
+	transition: background 0.32s;
+}
+
+.FClass1e2{
+	margin-top: 1005px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	width: 290px;
+	height: 290px;
+	background-color: #4F3275;
+	border-radius: 35px;
+	transition: background 0.32s;
+}
+
+#menu{
+	position: absolute;
+	top: -800px;
+	
+	width: 900px;
+	height: 600px;
+	opacity: 0.95;
+	border-radius: 50px;
+	background-color: #7E0DFA;
+	transition: top 1.2s;
+	z-index: 10;
+}
+
+label{
+	font-size: 2em;
+}
+
+input#texto{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+input{
+	margin-top: 60px;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.nomeUsuario{
+color:#7E0DFA;
+position: absolute;
+right: 510px;
+bottom: 507px;
+}
+
+.class9{
+	margin-left: 57px;
+}
+
+
+
+.cadeiras9{
+	margin-top: 65px;
+}
+
+.cadeiras2{
+	margin-top: 95px;
+	margin-left: 65px;
+}
